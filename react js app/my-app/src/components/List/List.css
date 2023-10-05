@@ -1,0 +1,19 @@
+
+.head{
+    margin: 10px;
+    background-color: rgb(11, 11, 8);
+    color: white;
+   
+}
+.full{
+    margin: 10px;
+    padding: 25px;
+    
+}
+body{
+    background-color: rgb(233, 233, 230);
+}
+.logout{
+    /* display: fle; */
+    text-align: end;
+}
