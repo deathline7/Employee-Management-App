@@ -19,8 +19,7 @@ public class LoginController {
 	LoginService loginService;
 	@PostMapping("/login.htm")
 	 public ResponseEntity<Login> insert(@RequestParam String emailID,String password) {
-		System.out.println("Entered login");
-			Login lg=new Login();
+					Login lg=new Login();
 			lg.setEmailID(emailID);
 			lg.setPassword(password);
 			
